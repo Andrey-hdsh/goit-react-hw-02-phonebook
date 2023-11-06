@@ -102,6 +102,6 @@ export const FilterContainer = styled.div`
   }
 
   input {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;

@@ -21,9 +21,9 @@ export const ContactForm = ({ hundleContact, contacts }) => {
     >
       <FormStyled>
         <label>Name</label>
-        <Field type="text" name="name" required />
+        <Field type="text" name="name" placeholder='Jack Daniel`s' required />
         <label>Phone</label>
-        <Field type="tel" name="number" required />
+        <Field type="tel" name="number" placeholder='+380' required />
         <button type="submit">Add contact</button>
       </FormStyled>
     </Formik>
