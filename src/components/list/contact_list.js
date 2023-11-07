@@ -1,4 +1,4 @@
-import { ListContainer } from './contacts_form.styled';
+import { ListContainer } from "./contact_list.styled";
 
 export const ContactList = ({ filteredData, deletedData }) => {
   return (

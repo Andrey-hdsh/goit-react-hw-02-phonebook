@@ -1,4 +1,4 @@
-import { SectionFormContacts } from './contact_forms_section';
+import { SectionFormContacts } from './contacts/contact book';
 
 export const App = () => {
   return <SectionFormContacts />;

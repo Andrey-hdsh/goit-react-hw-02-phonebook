@@ -1,4 +1,4 @@
-import { FilterContainer } from './contacts_form.styled';
+import { FilterContainer } from "./contact_filter.styled"
 
 export const Filter = ({ value, onChange }) => {
   return (
