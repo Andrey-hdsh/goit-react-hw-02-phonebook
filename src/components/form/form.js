@@ -11,7 +11,7 @@ export const ContactForm = ({ hundleContact }) => {
     .max(25, 'Name must be 25 characters or less')
     .required('Name is required'),
   number: Yup.string()
-    .matches(/^[0-9]*$/, 'Invalid phone number')
+    .matches(/^[0-9-+]*$/, 'Invalid phone number')
     .min(5, 'Phone number must be at least 5 characters')
     .max(20, 'Phone number must be 20 characters or less')
     .required('Phone number is required'),
