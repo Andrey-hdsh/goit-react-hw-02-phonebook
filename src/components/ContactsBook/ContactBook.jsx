@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
-import { ContactForm } from '../form/form';
-import { Filter } from '../filter/contact_filter';
-import { ContactList } from '../list/contact_list';
+import { ContactForm } from '../FormContact/FormContact';
+import { Filter } from '../FilterContact/Filter';
+import { ContactList } from '../ListContact/ListContact';
 
 export class SectionFormContacts extends Component {
   state = {
